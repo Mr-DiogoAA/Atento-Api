@@ -38,3 +38,5 @@ Ter SQL Server instalado (Senha "root") e algum SGBD.
 
 Se acontecer algum erro de sql_mode=only_full_group_by rodar o seguinte comando na base:
 SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+
+# Using Zappier GPT chat actions
